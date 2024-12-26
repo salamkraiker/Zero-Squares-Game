@@ -1,0 +1,146 @@
+{
+  "levels": [
+     {
+      "grid_size": 8,
+      "fixed_squares": [
+        [0, 0], [0, 1], [0, 2], [0, 3], [0, 4], [0, 5], [0, 6], [0, 7],
+        [1, 0],[1,3], [1, 7], [2, 0], [2, 7], [3, 0], [3, 7], [4, 0], [4, 7],
+        [5, 0], [5, 1],[5,2],[5,3], [5,5],[5, 6], [5, 7], [6, 2], [6, 3],[6,4]
+      ],
+      "movable_squares": [
+        {"position": [3, 1], "color": "RED2", "symbol": "r"}
+      ],
+      "goals": [
+        {"position": [5, 4], "color": "RED2", "symbol": "R"}
+      ]
+    },
+    {
+      "grid_size": 12,
+      "fixed_squares": [
+        [0, 2], [0, 3], [0, 4], [0, 5], [0, 6], [0, 7],[0,8], [0,9],[0,10],[0,11],
+        [1,2],[1,3], [1, 11], [2, 0], [2, 1],[2, 2],[2, 5], [2, 6],[2, 7], [2, 8], [2,9],[2,11],
+        [3, 0], [3, 9], [3,11],[4, 0],[4, 2], [4, 9],[4,11],
+        [5, 0], [5, 11],[6,0],[6, 1], [6, 2], [6, 3],[6,4],[6,11],[7, 3],[7, 4],[7, 5], [7, 6], [7, 7],[7, 8],[7, 9],[7, 10],[7, 11]
+      ],
+      "movable_squares": [
+        {"position": [1, 4], "color": "RED2", "symbol": "r"}
+      ],
+      "goals": [
+        {"position": [3, 6], "color": "RED2", "symbol": "R"}
+      ]
+    },
+    {
+      "grid_size": 8,
+      "fixed_squares": [
+        [0,0],[0,1],[0,2],[0,3],[0,4],[0,5],[0,6],[0,7],
+        [1,0],[2, 0],[3, 0],[4,0],[5,0],[6,0],[7,0],
+        [7,0],[7,1],[7,2],[7,3],[7,4],[7,5],[7,6],[7,7],
+        [1,7],[2,7],[3,7],[4,7],[5,7],[6,7],[7,7],
+        [3, 3],
+        [4, 4]
+      ],
+      "movable_squares": [
+        {"position": [2, 2], "color": "GREEN", "symbol": "g"},
+        {"position": [5, 6], "color": "RED2", "symbol": "r"}
+      ],
+      "goals": [
+        {"position": [1, 1], "color": "GREEN", "symbol": "G"},
+        {"position": [5, 5], "color": "RED2", "symbol": "R"}
+      ]
+    },
+    {
+      "grid_size": 12,
+      "fixed_squares": [
+        [0, 2], [0, 3],[0, 4], [0, 5],[0, 6], [0, 7], [0, 8],[0, 9],
+        [1,1], [1,2],[1, 9 ],[1,10],
+        [2, 0], [2, 1],[2, 4],[2, 7], [2, 10],[2,11],
+        [3, 0], [3, 3], [3,8],[3,11],
+        [4, 0],[4, 5],[4, 8],[4, 9],[4, 11],
+        [5, 0], [5, 2],[5,4],[5,5],[5,9],[5,11],
+        [6,0],[6, 4],[6, 11],
+        [7, 0],[7, 1],[7,2],[7,3],[7,4],[7,5],[7,6],[7,7],[7,8], [7,9],[7,10],[7,11]
+
+      ],
+      "movable_squares": [
+          {"position": [5, 1], "color": "RED2", "symbol": "r"},
+        {"position": [5, 10], "color": "CYAN_GREEN", "symbol": "c"}
+
+
+      ],
+      "goals": [
+        {"position": [3, 5], "color": "RED2", "symbol": "R"},
+        {"position": [2, 6], "color": "CYAN_GREEN", "symbol": "C"}
+
+      ]
+    },
+    {
+  "grid_size": 7,
+  "fixed_squares": [
+    [0,0],[0,1],[0,2],[0,3],[0,4],[0,5],[0,6],
+    [1,0],[2,0],[2, 3],[3,0],[4,0],[5,0],[1,6],
+    [5, 4],
+    [2, 6],[3,6], [4,6],[5,6],
+    [6,0], [6,1], [6,2], [6,3], [6,4], [6,5],  [6,6]
+  ],
+  "movable_squares": [
+    {"position": [2, 4], "color": "RED2", "symbol": "r"},
+    {"position": [4, 2], "color": "CYAN_GREEN", "symbol": "c"},
+    {"position": [5, 2], "color": "GREEN", "symbol": "g"}
+  ],
+  "goals": [
+    {"position": [1, 3], "color": "RED2", "symbol": "R"},
+    {"position": [4, 5], "color": "CYAN_GREEN", "symbol": "C"},
+    {"position": [5, 3], "color": "GREEN", "symbol": "G"}
+  ]
+},
+
+    {
+      "grid_size": 9,
+      "fixed_squares": [
+        [0, 3], [0, 4], [0, 5],[0, 6],
+        [1,0], [1,1],[1,2],[1, 3 ],[1,6],[1,7],[1,8],
+        [2, 0], [2, 8],
+        [3, 0], [3, 3], [3,6],[3,8],
+        [4, 0],[4, 1],[4, 2],[4, 3],[4, 4],[4, 5],[4, 6],[4, 7],[4, 8]
+      ],
+      "movable_squares": [
+        {"position": [1, 4], "color": "ORANGE", "symbol": "o"},
+        {"position": [2, 2], "color": "PINK", "symbol": "p"},
+        {"position": [2, 3], "color": "BLUE", "symbol": "b"},
+        {"position": [3, 2], "color": "CYAN_GREEN", "symbol": "c"},
+        {"position": [3, 7], "color": "YELLOW", "symbol": "y"}
+      ],
+      "goals": [
+        {"position": [3, 4], "color": "ORANGE", "symbol": "O"},
+        {"position": [3, 2], "color": "PINK", "symbol": "P"},
+        {"position": [2, 1], "color": "BLUE", "symbol": "B"},
+        {"position": [3, 7], "color": "CYAN_GREEN", "symbol": "C"},
+        {"position": [1, 5], "color": "YELLOW", "symbol": "Y"}
+      ]
+    },
+    {
+      "grid_size": 9,
+      "fixed_squares": [
+        [0, 3], [0, 4], [0, 5],[0, 6],
+        [1,0], [1,1],[1,2],[1, 3 ],[1,6],[1,7],[1,8],
+        [2, 0], [2, 8],
+        [3, 0], [3, 3], [3,6],[3,8],
+        [4, 0],[4, 1],[4, 2],[4, 3],[4, 4],[4, 5],[4, 6],[4, 7],[4, 8]
+      ],
+      "movable_squares": [
+        {"position": [1, 4], "color": "ORANGE"},
+        {"position": [2, 2], "color": "PINK"},
+        {"position": [2, 3], "color": "BLUE"},
+        {"position": [3, 2], "color": "CYAN_GREEN"},
+        {"position": [3, 7], "color": "YELLOW"}
+      ],
+      "goals": [
+        {"position": [3, 4], "color": "ORANGE"},
+        {"position": [3, 2], "color": "PINK"},
+        {"position": [2, 1], "color": "BLUE"},
+        {"position": [3, 7], "color": "CYAN_GREEN"},
+        {"position": [1, 5], "color": "YELLOW"}
+      ]
+    }
+  ]
+}
